@@ -29,6 +29,10 @@ class StringCalculatorShould {
         assertEquals(1, stringCalculator.add("1"));
     }
     
-    
+    @Test
+    public void string_with_two_numbers_comma_delimited_should_return_sum()
+    {
+        assertEquals(10+20, stringCalculator.add("10,20"));
+    }
     
 }
